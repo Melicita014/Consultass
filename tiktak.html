@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Exposicion de coches</title> 
+</head> <header><img src="./imagenes/cocheprincipal.jpeg" class=" cochelogo" >             
+         <h2>Cuenta atras</h2>
+        <nav>
+               <a href="inicio.html">Inicio</a>
+               <a href="formulario.html">Inscripción</a>
+               <a href="aboutus.html">About us</a>
+               <a href="galeria.html">Galería de coches</a> 
+               <a href="tiktak.html">Cuenta atras</a> 
+            
+         </nav>   
+
+         <br> </header>
+    
+    <link rel="stylesheet" href="reloj.css">
+    <link rel="stylesheet" href="estilo.css">
+    
+</head>
+
+<div class="countdown">
+    <div>
+        <p id="days"></p>
+        <span>Dias</span>
+    </div>
+    <div>
+        <p id="hours"></p>
+        <span>Horas</span>
+    </div>
+    <div>
+        <p id="minutes"></p>
+        <span>Minutos</span>
+    </div>
+    <div>
+        <p id="seconds"></p>
+        <span>Segundos</span>
+    <section class="final-sms"><h2> ¡ EL EVENTO COMENZO ¡ </h2></section>
+    </div>
+
+    <script>
+
+
+
+    const $days = document.getElementById('days'),
+$hours = document.getElementById('hours'),
+$minutes = document.getElementById('minutes'),
+$seconds = document.getElementById('seconds'),
+$finalMessage = document.querySelector('.final-sms');
+
+//Fecha a futuro
+const countdownDate = new Date('11 20, 2023 10:00:00').getTime();
+
+let interval = setInterval(function(){
+    //Obtener fecha actual y milisegundos
+    const now = new Date().getTime();
+
+    //Obtener las distancias entre ambas fechas
+    let distance = countdownDate - now;
+
+    //Calculos a dias-horas-minutos-segundos
+    let days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    let hours = Math.floor((distance % (1000 * 60 * 60 * 24 )) / (1000 * 60 * 60));
+    let minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    let seconds = Math.floor((distance % (1000 * 60 )) / (1000));
+
+    //Escribimos resultados
+    $days.innerHTML = days;
+    $hours.innerHTML = hours;
+    $minutes.innerHTML = minutes;
+    $seconds.innerHTML = ('0' + seconds).slice(-2);
+
+    //Cuando llegue a 0
+    if(distance < 0){
+        clearInterval(interval);
+        $finalMessage.style.transform = 'translateY(0)';
+    }
+}, 1000);</script>
+</body>
+</html>

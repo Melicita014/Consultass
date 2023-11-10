@@ -1,0 +1,102 @@
+<html lang="es">
+<head>
+  
+    <script defer src="jsvalidar.js"></script>
+    <link rel="stylesheet" href="estilo.css">
+  <meta charset="UTF-8">
+  <header><img src="./imagenes/cocheprincipal.jpeg" class=" cochelogo" >             
+    <h2>EXPOSICION DE COCHES </h2>
+   <nav>
+          <a href="inicio.html">Inicio</a>
+          <a href="formulario.html">Inscripción</a>
+          <a href="aboutus.html">About us</a>
+          <a href="galeria.html">Galería de coches</a> 
+          <a href="tiktak.html">Cuenta atras</a>
+       
+    </nav>   
+
+    <br> </header>
+
+  <title>Formulario de inscripcion</title>
+  </head>
+<body>  
+  
+  <div class="inscripcion">
+
+    <div class="formulario" id="formulario"name= "formulario">      
+      <h1> INSCRIBETE !!</h1>
+          <form action="insert.php"  >  
+            <input  type = "hidden" id = "coches" name="db" value ="exhibiciondecoches" >   
+            <input type = "hidden"id = "publico" name="table" value ="publico">
+                
+            <p>
+                  <label for="Nombre" class="colocar_nombre"> Nombre
+                  </label>
+                 
+                    <input type="text" name="Nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+                </p>
+                <p>
+                  <label for="Apellidos" class="Apellidos"> Apellidos
+                   
+                  </label>
+                    <input type="text" name="Apellidos" id="apellido" required="obligatorio" placeholder="Escribe tus apellidos">
+                </p>    
+              <p>
+                <label for="Email" class="colocar_email"> Email
+               
+                </label>
+                  <input type="email" name="email" id="email" placeholder="Escribe tu Email">
+              </p>
+          
+              <p>
+                <label for="Telefono" class="colocar_telefono"> Teléfono
+                 
+                </label>
+                  <input type="text" name="Telefono" id="telefono" required="obligatorio" placeholder="Escribe tu teléfono">
+              </p>    
+            
+              <p>
+                <label for="DNI" class="DNI" > DNI
+               
+                </label>
+                  <input type="text" name="DNI" id="dni" required="obligatorio" placeholder="Escribe tu Dni">
+              </p>  
+
+              <p>
+                <label for="Cuidad" class="Cuidad" > Cuidad 
+               
+                </label>
+                  <input type="texto" name="Ciudad" id="cuidad" required="obligatorio" placeholder="Escribe tu Cuidad">
+              </p>    
+              <p>
+                <label for="Pais" class="Pais" > Pais
+                 
+                </label>
+                  <input type="text" name="Pais" id="pais" required="obligatorio" placeholder="Escribe tu Pais">
+              </p>             
+              <p>
+                <label for="Fecha_nacimiento" class="Data" > Fecha de nacimiento
+                 
+                </label>
+                  <input type="date" name="Fecha_nacimiento" id="date" required="obligatorio" placeholder="Tu fecha de nacimiento ">
+              </p>  
+             
+                <label for="Asistencia" id= asistencias class="opcion" required="obligatorio"> Elige los dias que quieras ir a continuacion
+               
+                 <br > 
+                        <input type="checkbox" class="mycheck"name="Asistencia" value="1"> 20 de Noviembre.
+                        <br ><input type="checkbox"class="mycheck" name="Asistencia" value="2" > 21 de Noviembre
+                        <br ><input type="checkbox" class="mycheck"name="Asistencia" value="3"> 22 de Noviembre    
+                        <br ><input type="checkbox"class="mycheck" name="Asistenica" value="4"> 23 de Noviembre     
+                      </br> </br> </br> </br>
+                    </br>
+                   </label> 
+                <button  id="enviar" ><p>Enviar</p></button>
+                </input>
+              </input> 
+              
+       </form>
+    </div>  
+  </div>
+</body>
+</html>

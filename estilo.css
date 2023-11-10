@@ -1,0 +1,460 @@
+* {
+  padding: 0;
+}
+
+html {
+    background-color: #deded8;
+    font-family: trebuchet, geneva, sans-serif;
+  }
+ 
+div.fondo.img {  
+    width:50px;
+    height:70px;
+  }
+  article, aside, footer {
+
+    box-sizing: border-box;
+  }
+  header {
+    background-color: rgb(41, 49, 196);
+    color: white;
+    text-align: center;
+    border-bottom: 1px solid;
+    font: oblique bold 120% sans-serif ;
+  }
+  aside {
+    background-color: white;
+  }
+  footer{
+    background-color: rgb(61, 68, 149);
+    color: white;
+    text-align: center;
+  }
+  footer a{
+    color:white;
+  }
+ 
+  nav {
+    display: flex;
+    background-color: rgb(178, 202, 235);
+    padding: 10px 0;
+  }
+  nav a {
+    flex: auto;
+    text-align: center;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-style:inherit;
+    margin: 0 5px;
+    padding: 5px 0;
+    text-decoration: none;
+  }
+  nav a:hover {
+    outline: 1px solid rgb(255, 255, 255);
+    color: rgb(0, 17, 253);
+    text-decoration: underline;
+  }
+.Intro {
+  text-align: center;
+}
+.Intro1 {
+  text-align: center;
+}
+html{
+  background-color: gray;
+}
+img {
+  border-radius: 580px;
+  width: 100px; height:100px;
+  margin-top: 10px;
+}
+.titulo1{
+  text-align: center;
+}
+
+    /*INICIO */
+   
+  .Introduccion{
+    background-image: url('https://images.unsplash.com/photo-1636953056323-9c09fdd74fa6?auto=format&fit=crop&q=80&w=1000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8fA%3D%3D');
+  }
+  .evento  {
+    text-align: center;
+    color: white;
+  }
+  .evento p {
+    color:white;
+  }
+   
+  div.evento  {
+    text-align: center;
+    color: white;
+  }
+
+  .tabla tr {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    color: rgb(0, 0, 0);
+    height:50px;
+   
+  }
+  .tabla th{
+    width:500px;
+    color: black;
+   
+  }
+ 
+  @media screen and (min-width: 30rem) {
+    body {
+      display: flex;
+      flex-direction: column;
+      max-width: 100%;
+      margin: auto;
+   
+    }
+    main {
+      display: flex;
+      flex-wrap: wrap;
+      box-sizing: border-box;
+      border-bottom: 0.5rem solid;
+    }
+    nav, header {
+      order: -1;
+    }
+    article {
+      flex: 75%;
+    }
+    aside {
+      flex: 25%;
+    }
+    #imagen{
+        text-align: center;
+       
+    }
+    #principal{
+        text-align:center;
+    }
+}
+
+
+  /*ABOUT US */
+ 
+
+  .slide-down {
+    width: 20%;
+    height: 20%;
+    border-radius: 0px;
+    animation: slide-down 30s infinite linear;
+   }
+   @keyframes slide-down {
+    0% {
+       transform: translateY(10);
+    }
+    100% {
+       transform: translateY(220%);
+    }
+  }
+
+
+.Mireia{
+  position:absolute;
+  top: 800px;
+  left:-10px;
+ right: 150px;
+}
+.Mario {
+  position:absolute;
+ top: 800px;
+ left: 700px;
+  right: -80px;}
+
+.Iñaqui {
+  position:absolute;
+  top: 1500px;
+  left: -10px;
+  right: 150px;;
+}
+.Xabier{
+  position:absolute;
+ top: 1500px;
+ left: 700px;
+right: -80px;
+}
+  .img {
+  float: right;
+}
+  html {
+    background-color: #afdfeb;
+    font-family: trebuchet, geneva, sans-serif;
+  }
+  title{
+    font-size: 39px;
+    text-align: center;
+    padding-bottom: 20px;
+    color: #3ec1e2;
+  }
+  h1{
+    text-align: center;
+
+
+  }
+  .team-member {
+    top: 1500px;
+    left: 900px;
+   right: -80px;
+    text-align: center;
+            display: flex;
+            margin: 20px;
+        }
+        .team-member img {
+            width: 220px;
+            height: 250px;
+            margin-right: 50px;
+        }
+        .team-member-info {
+            flex: 1;
+        }
+
+    .cv img {
+        width: 40px;
+        height:50px;
+      }
+    p{
+      text-align: center;
+      flex: 1;
+    }
+    body{
+      text-align: center;
+      padding: 50px;
+
+    }
+ /* fORMULARIO */
+    body{
+      height: 100%;
+      font-family: 'Noto Sans', sans-serif;
+      background-color: #afdfeb;
+      font-size: 17px;
+    }
+   
+   
+    .inscripcion{  
+      width: 460px;
+      height: auto;
+      margin: 80px auto;
+      border-radius: 10px;  
+      padding-top: 30px;
+      padding-bottom: 20px;  
+      background-color: #fbfbfb;
+      padding-left: 30px;
+    }
+   
+   
+    input{
+      background-color: #fbfbfb;
+      width: 408px;
+      height: 40px;
+      border-radius: 5px;  
+      border-style: solid;
+      border-width: 1px;
+      border-color: #1cbad6;
+      margin-top: 10px;  
+      padding-left: 10px;
+      margin-bottom: 20px;
+    }
+   
+    label{
+      display: block;
+      float: left;
+      margin: 20px;
+       
+    }
+   
+    button{
+      height: 45px;
+      padding-left: 5px;
+      padding-right: 5px;  
+      margin-bottom: 20px;
+      margin-top: 10px;  
+      text-transform: uppercase;
+      background-color: #2a93c4;
+      border-color: #24488a;
+      border-style: solid;
+      border-radius: 10px;  
+      width: 420px;  
+      cursor: pointer;
+    }
+   
+    button p{
+      color: #fff;
+    }
+   
+    .mycheck {
+      background-color: #fff;
+      width: 20px;
+      height: 20px;
+     border: 2px solid #888;
+       
+ 
+  }
+ 
+  .acceptterms {
+    background-color: #fff;
+    width: 0px;
+    height: 20px;
+   border: 2px solid #888;
+}
+ 
+    span{
+      color: #209ad3;
+    }
+   
+   
+    .aviso{
+      font-size: 13px;  
+      color: #0e0e0e;  
+    }
+   
+   
+    h1{
+      font-size: 39px;  
+      text-align: center;
+      padding-bottom: 20px;
+      color: #3ec1e2;
+    }
+   
+   
+    .foto1 h3{
+      font-size: 16px;
+      padding-bottom: 30px;
+      color: #0e0e0e;  
+      background-color: #1cbad6;
+    }
+   
+   
+    p{
+      font-size: 14px;
+      color: #0e0e0e;
+    }
+   
+   
+    ::-webkit-input-placeholder {
+     color: #a8a8a8;
+    }
+   
+   
+    ::-webkit-textarea-placeholder {
+     color: #a8a8a8;
+    }
+   
+   
+    .formulario input:focus{
+      outline:0;
+      border: 1px solid #97d848;
+    }
+   
+   
+    .formulario textarea:focus{
+      outline:0;
+      border: 1px solid #97d848;
+    }
+
+     /* GALERIA */
+
+
+
+
+
+
+ #galeria>ul,
+ li {
+    
+     list-style: none;
+ }
+ 
+ 
+ #galeria>ul.coches {
+     position: relative;
+     width: 500px;
+     height: 500px;
+    
+    
+ }
+ #galeria>ul.coches h3  {
+   background-color: #7ac0e0;
+   border:3px solid #0e0e0e;
+     width: 600px;
+     height: 400px;
+     position: absolute;
+     padding: 50px;
+     left: 750px;
+     top:200px ;
+     transform: translate(-50%, -50%);
+     margin-top: 63px;
+     margin-left: 145px;
+ }
+ 
+ 
+ #galeria>ul.coches li {
+   position: absolute;
+     left: 0px;
+     top: 0px;
+     opacity: 0;
+     width: inherit;
+     height: inherit;
+     transition: opacity .5s;
+ 
+ 
+ }
+ 
+ 
+ #galeria>ul.coches li img {
+     width: 100%;
+     height: 400px;
+     object-fit: cover;
+     margin-top:60px;
+    
+ }
+ 
+ 
+ #galeria>ul.coches li:first-child {
+     opacity: 1;
+    
+ }
+ 
+ 
+ #galeria>ul.coches li:target {
+     opacity: 1;
+    
+ }
+ 
+ 
+ #galeria>.menu {
+   text-align: center;
+     margin: 20px;
+ }
+ 
+ 
+ #galeria>.menu li {
+     display: inline-block;
+     text-align: center;
+    
+ }
+ 
+ 
+ #galeria>.menu li a {
+     display: inline-block;
+     color: white;
+     text-decoration: none;
+     background-color: grey;
+     padding: 13px;
+     width: 20px;
+     height: 20px;
+     font-size: 18px;
+     border-radius: 100%;
+     margin-top: 40px;
+     text-align: center;
+ }
+ 
+ 
+ 
+ 

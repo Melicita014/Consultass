@@ -1,0 +1,234 @@
+ /*  RELOJ */
+ * {
+    padding: 0;
+  }
+  
+  html {
+      background-color: #deded8;
+      font-family: trebuchet, geneva, sans-serif;
+    }
+   
+  div.fondo.img {  
+      width:50px;
+      height:70px;
+    }
+    article, aside, footer {
+  
+      box-sizing: border-box;
+    }
+    header {
+        background-color: rgb(41, 49, 196);
+        color: white;
+        text-align: center;
+        border-bottom: 1px solid;
+        font: oblique bold 120% sans-serif ;
+      }
+    aside {
+      background-color: white;
+    }
+    footer{
+      background-color: rgb(61, 68, 149);
+      color: white;
+      text-align: center;
+    }
+    footer a{
+      color:white;
+    }
+   
+    nav {
+      display: flex;
+      background-color: rgb(178, 202, 235);
+      padding: 10px 0;
+    }
+    nav a {
+      flex: auto;
+      text-align: center;
+      background: rgb(255, 255, 255);
+      color: rgb(0, 0, 0);
+      font-family: "Lucida Console", "Courier New", monospace;
+      font-style:inherit;
+      margin: 0 5px;
+      padding: 5px 0;
+      text-decoration: none;
+    }
+    nav a:hover {
+      outline: 1px solid rgb(255, 255, 255);
+      color: rgb(0, 17, 253);
+      text-decoration: underline;
+    }
+  .Intro {
+    text-align: center;
+  }
+  .Intro1 {
+    text-align: center;
+  }
+  html{
+    background-color: gray;
+  }
+  img {
+    border-radius: 580px;
+    width: 100px; height:100px;
+    margin-top: 10px;
+  }
+  .titulo1{
+    text-align: center;
+  }
+ *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header {
+    background-color: rgb(41, 49, 196);
+    color: white;
+    text-align: center;
+    border-bottom: 1px solid;
+    font: oblique bold 120% sans-serif ;
+  }
+ 
+body{
+    display: grid;
+    place-items: center;
+    font-family: 'Share Tech Mono', monospace;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   
+}
+.countdown{
+    display: flex;
+    justify-content: space-evenly;
+    width: 60%;
+   position: center;
+    flex-wrap: wrap;
+   margin-top: 70px;
+}
+.countdown div{
+    display: grid;
+    place-items: center;
+    padding: 10px;
+}
+h1{
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+    padding: 30px 10px;
+}
+p{
+    display: grid;
+    place-items: center;
+    border: solid 6px #fff;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+   
+    font-size: 2rem;
+    font-weight: bold;
+    background-color: #74ccff;
+}
+span{
+    display: block;
+    padding: 10px;
+    text-align: center;
+    color: #74ffe7;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.final-sms{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: grid;
+    place-items: center;
+    transform: translateY(-100%);
+    transition: ease-in-out 0.5s;
+    background-color: #333;
+}
+.final-sms h2{
+    text-align: center;
+    font-size: 100px;
+    color: #fff;
+}
+* {
+  padding: 0;
+}
+
+
+html {
+    background-color: #deded8;
+    font-family: trebuchet, geneva, sans-serif;
+  }
+ 
+div.fondo.img {  
+    width:50px;
+    height:70px;
+  }
+  article, aside, footer {
+
+
+    box-sizing: border-box;
+  }
+  header {
+    background-color: rgb(41, 49, 196);
+    color: white;
+    text-align: center;
+    border-bottom: 1px solid;
+    font: oblique bold 120% sans-serif ;
+  }
+  aside {
+    background-color: white;
+  }
+  footer{
+    background-color: rgb(61, 68, 149);
+    color: white;
+    text-align: center;
+  }
+  footer a{
+    color:white;
+  }
+ 
+  nav {
+    display: flex;
+    background-color: rgb(178, 202, 235);
+    padding: 10px 0;
+  }
+  nav a {
+    flex: auto;
+    text-align: center;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-style:inherit;
+    margin: 0 5px;
+    padding: 5px 0;
+    text-decoration: none;
+  }
+  nav a:hover {
+    outline: 1px solid rgb(255, 255, 255);
+    color: rgb(0, 17, 253);
+    text-decoration: underline;
+  }
+.Intro {
+  text-align: center;
+}
+.Intro1 {
+  text-align: center;
+}
+html{
+  background-color: gray;
+}
+img {
+  border-radius: 580px;
+  width: 100px; height:100px;
+  margin-top: 10px;
+}
+.titulo1{
+  text-align: center;
+}
